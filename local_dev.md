@@ -25,7 +25,7 @@ Create a docker context via ssh
 For lightsail this might look like (if you omit the port, it will default to 22, which is probably fine):
 `docker context create friendly-name-of-my-instance --docker "host=ssh://ubuntu@<lightsailipaddress>"`
 
-## Create docker context
+## Use docker context
 
 Open a new window in vscode, open command pallet with `cmd+shift+p`, type docker contexts: use, hit enter and select `friendly-name-of-my-instance`.
 
